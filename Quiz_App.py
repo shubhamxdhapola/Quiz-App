@@ -167,10 +167,12 @@ def asking_questions(question, options, correctAnswer, questionNo):
                 else:
                     print(">> Wrong Answer")
                     print(f">> Correct answer is : {correctAnswer}")
-
+                
                 break
                 
             else : print(f">> Invalid option choose the correct option ({3-(attempts+1)} attempts remaining)")
+            
+            print("\n>> Quiz End....\n")
             
         except ValueError : print(f">> Invalid input! Please enter a numeric value ({3-(attempts+1)} attempts remaining)")
 
