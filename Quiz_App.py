@@ -201,4 +201,4 @@ def start_quiz():
         
 if __name__ == "__main__":
 
-    start_quiz() # Start the quiz when the script is executed
+    start_quiz() # Start the quiz when the script is executed directly
